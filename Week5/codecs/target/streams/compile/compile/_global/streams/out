@@ -1,0 +1,14 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /home/knoldus/Desktop/coursera/effective-programming-in-scala/Week5/codecs/src/main/scala/codecs/Codecs.scala:218:27 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m218 |[0m    Decoder.fromFunction { [33mcase[0m Json.Arr(as) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                           [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |It would fail on pattern case: Null, Json.Bool(_), Json.Num(_), Json.Str(_), Json.Obj(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: /home/knoldus/Desktop/coursera/effective-programming-in-scala/Week5/codecs/src/main/scala/codecs/Codecs.scala:231:27 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m231 |[0m    Decoder.fromFunction { [33mcase[0m Json.Obj(o) =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |                           [33m^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |[0m
+[0m[[0m[33mwarn[0m] [0m[0m    |It would fail on pattern case: Null, Json.Bool(_), Json.Num(_), Json.Str(_), Json.Arr(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
